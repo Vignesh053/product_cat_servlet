@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-catalog</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header><h1>Product Catalog</h1></header>
+    <div id="content">
+        <div id="form-container">
+        
+            <form id="submitform">
+                <label for="name">Product name</label>
+                <input type="text" id="name" name="name">
+                <label for="price">Product price</label>
+                <input type="text" id="price" name="price">
+                <label for="category">Product category</label>
+                <input type="text" id="category" name="category">
+                <button id="addproduct" type="submit">Add product</button>
+            </form>
+    
+            <button id="display">Display Product</button>
+        </div>
+    
+    
+        <div id="table">
+            <h2>Product details</h2>
+    
+            <table id="productstable">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>berserk</td>
+                    <td>150</td>
+                    <td>book</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>vagabond</td>
+                    <td>240</td>
+                    <td>book</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>dairy milk</td>
+                    <td>20</td>
+                    <td>snacks</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>pen</td>
+                    <td>10</td>
+                    <td>departmental</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
